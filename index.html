@@ -31,18 +31,20 @@
 	</header>
 	<main class="container">
 		<div class="container-poster">
-			<div class="font-welcom">
-				welcom
-			</div>
-			<div class="font-gorgeous">
-				- to the gorgeous -
-			</div>
-			<div class="font-sedona">
-				<h1>sedona</h1>
-			</div>
-			<div class="font-because">
-				"because the Grand Canyon sucks!"
-			</div>
+			<ul>
+				<li>
+					<img src="img/welcom.png" width="147" height="35" alt="welcom">
+				</li>
+				<li>
+					<img src="img/gorgeous.png" width="256" height="30" alt="to the gorgeous">
+				</li>
+				<li>
+					<img src="img/sedona.png" width="458" height="78" alt="senoda">
+				</li>
+				<li>
+					<img src="img/because.png" width="296" height="82" alt="because the Grand Canyon sucks!">
+				</li>
+			</ul>
 		</div>
 		<div class="container-promotext">
 			<h2>
@@ -54,7 +56,9 @@
 		<div class="container-reason">
 			<div class="reason-main">
 				<h2>Настоящий городок</h2>
-				<p>- №1 -</p>
+				<div class="reason-number">
+					- №1 -
+				</div>
 				Седона - не атракцион для туристов,
 				там течет своя жизнь.
 				<img src="img/photo1.jpg" width="625" height="200" alt="">
@@ -82,26 +86,34 @@
 			<div class="reason-main">
 				<img src="img/photo2.jpg" width="625" height="200" alt="Мост дьявола">
 				<h2>Там есть мост дьявола</h2>
-				<p>- №2 -</p>
+				<div class="reason-number">
+					- №2 -
+				</div>
 				Да, по нему можно пройти!
 				Если конечно Вы осмелитесь.
 			</div>
 			<div class="reason-other">
 				<div class="promoblock">
 					<h2>Небольшая площадь</h2>
-					<p>- №3 -</p>
+					<div class="reason-number">
+						- №3 -
+					</div>
 					Все достопримечательности
 					находятся очень близко
 				</div>
 				<div class="promoblock">
 					<h2>Красивая дорога</h2>
-					<p>- №4 -</p>
+					<div class="reason-number">
+						- №4 -
+					</div>
 					Ехать в Седону из Лас Вегаса
 					совсем не скучно!
 				</div>
 				<div class="promoblock">
 					<h2>Мало туристов</h2>
-					<p>- №5 -</p>
+					<div class="reason-number">
+						- №5 -
+					</div>
 					Большинство едет в Гранд Каньон и
 					толпится там
 				</div>
@@ -118,7 +130,7 @@
 				<div class="caption">
 					<h2>Поиск гостиницы в Седоне</h2>
 				</div>
-				<form class="appointment-form" action="https://echo.htmlacademy.ru" method="get">
+				<form class="serach-form" action="" method="">
 					<label for="entry">Дата заезда:</label>
 					<input type="text" id="entry" name="dataentry" value="24 апреля 2016" >
 
@@ -131,19 +143,6 @@
 					<label for="children">Дети:</label>
 					<input type="text" id="children" name="children" value="0">
 
-					<!-- Либо:
-					<label for="entry">Дата заезда:</label>
-					<input type="date" id="entry" name="dataentry" value="2016-04-24" >
-
-					<label for="exit">Дата выезда:</label>
-					<input type="date" id="exit" name="dataexit" value="2016-07-04">
-
-					<label for="grown">Взрослые:</label>
-					<input type="number" id="grown" name="grown" value="2" min="1" max="" step="1">
-
-					<label for="children">Дети:</label>
-					<input type="number" id="children" name="children" value="0" min="0" max="" step="1">
-					-->
 					<button class="btn" type="submit">Найти</button>
 				</form>
 			</div>
